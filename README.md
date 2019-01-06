@@ -16,9 +16,8 @@ Inference. The modeled experiment has a 2X3 within-subject design with
 the following factors: word frequency with 2 levels (high vs. low), item
 presentations at study (1,2,4).
 
-*USAGE*: This is the top-level script which then calls lower level
-functions. The user has only to adjust the parameters in the section
-below to generate  simulated results with different conditions (i.e. how
+*USAGE*: REM_main.m is the top-level script which then calls lower level
+functions. The user has only to adjust this script to generate simulated results with different conditions (i.e. how
 many items to memorise)
 
 *NOTE*: The script is intended as an exploratory tool to understand memory
