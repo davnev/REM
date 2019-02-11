@@ -1,6 +1,6 @@
 # REM (retrieving effectively from memory) model for MATLAB
 
-*INFO*: This set of MATLAB scripts implements the REM model
+*Information*: This set of MATLAB scripts implements the REM model
 (retrieving effectively from memory) following:
 
 1) Shiffrin, R., & Steyvers, M. (1997). A model for recognition memory: REM—retrieving effectively from memory. 
@@ -9,7 +9,7 @@ Psychonomic Bulletin & Review. Retrieved from http://www.springerlink.com/index/
 2) Malmberg, K. J., Zeelenberg, R., & Shiffrin, R. M. (2004). Turning up the Noise or Turning Down the Volume? On the Nature of the Impairment of Episodic Recognition Memory by Midazolam. 
 Journal of Experimental Psychology: Learning Memory and Cognition, 30(2), 540–549. https://doi.org/10.1037/0278-7393.30.2.540
 
-*DESCRIPTION*: The script simulates the word frequency mirror effect (WFME)
+*Description*: The script simulates the word frequency mirror effect (WFME)
 in a hypothetical recognition experiment. One participant is first 
 presented during a study phase with a list of words (with high and
 low frequency items) and subsequently in a test phase is presented with
@@ -20,11 +20,11 @@ Inference. The modeled experiment has a 2X3 with
 the following factors: word frequency with 2 levels (high vs. low), item
 presentations at study (1,2,4).
 
-*USAGE*: REM_SIM.m is the top-level script which then calls lower level
+*Usage*: REM_SIM.m is the top-level script which then calls lower level
 functions. The user has only to adjust this script to generate simulated results with different conditions (i.e. how
 many items to memorise)
 
-*NOTE*: The script is intended as an exploratory tool to understand memory
+*Note*: The script is intended as an exploratory tool to understand memory
 phenomena within the context of SAM-REM theory. Therefore the code favors 
 transparency rather than computational efficiency. 
 
