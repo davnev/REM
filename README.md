@@ -21,8 +21,7 @@ the following factors: word frequency with 2 levels (high vs. low), item
 presentations at study (1,2,4).
 
 *Usage*: REM_SIM.m is the top-level script which then calls lower level
-functions. The user has only to adjust this script to generate simulated results with different conditions (i.e. how
-many items to memorise)
+functions. The user can adjust this script to generate simulated results with different experimental conditions (i.e. list length, item repetitions, study time, etc.)
 
 *Note*: The script is intended as an exploratory tool to understand memory
 phenomena within the context of SAM-REM theory. Therefore the code favors 
@@ -32,4 +31,3 @@ transparency rather than computational efficiency.
 *Acknowledgement*: This set of scripts was developed as part of ESCOP 2010, 
 a big thanks to all of the instructors!
 
-Work in progress!
